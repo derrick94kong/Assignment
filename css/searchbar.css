@@ -1,0 +1,137 @@
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #262626;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #101010;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #9d9d9d;
+  left: initial;
+  font-size: 14px;
+}
+
+.reg
+{
+    min-width: 400px;
+    min-height: 28px;
+}
+
+.btn
+{
+    min-width: 125px;
+}
+
+.min-height
+{
+    min-height: 73vh;
+    height: auto;
+}
+
+.imgcontainer 
+{
+    width: 100%;           
+}
+.imgcontainer img 
+{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+}
+
+.review_container 
+{
+    width: 100%;           
+}
+.review_container img 
+{
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+}
+
+.poster
+{
+    width: 300px;
+}
+
+textarea
+{
+    resize: none;
+    height: auto;
+    min-height: 350px;
+    min-width: 400px;
+}
+
+.thumbnail {
+    padding:0px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
+
+.hei
+{
+    min-height: 100px;
+}
